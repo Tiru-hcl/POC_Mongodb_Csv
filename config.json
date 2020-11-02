@@ -1,0 +1,7 @@
+{
+  "host"          : "localhost",
+  "port_number"   : 27017,
+  "db_name"       : "Sales_DB",
+  "coll_name"     : "Sales_Records",
+  "path"          : "E:/db/100000_Sales_Records.csv"
+}
