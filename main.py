@@ -1,9 +1,11 @@
 import run
 import json
 
-if __name__ == '__main__':
-    with open('config.json') as config_file:
+with open('config.json') as config_file:
         data = json.load(config_file)
+        
+if __name__ == '__main__':
+    
     Sales_Record = run.Data_Process(data['host'],data['port_number'],data['db_name'],data['coll_name'],data['path'])
     Sales_Record.count_Records() #method call to retrieve record count
 
